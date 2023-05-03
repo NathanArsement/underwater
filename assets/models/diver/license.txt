@@ -1,0 +1,11 @@
+Model Information:
+* title:	Diver Aquatekk [Depth]
+* source:	https://sketchfab.com/3d-models/diver-aquatekk-depth-98fefbd132974f28a44abb758eb1468b
+* author:	mark2580 (https://sketchfab.com/mark2580)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Diver Aquatekk [Depth]" (https://sketchfab.com/3d-models/diver-aquatekk-depth-98fefbd132974f28a44abb758eb1468b) by mark2580 (https://sketchfab.com/mark2580) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

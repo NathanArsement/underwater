@@ -1,0 +1,11 @@
+Model Information:
+* title:	Kelvin Seamounts, Atlántico Norte
+* source:	https://sketchfab.com/3d-models/kelvin-seamounts-atlantico-norte-3a1e7233f7cb4dfc9b261f0a656047a3
+* author:	CMPLab (https://sketchfab.com/secad)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Kelvin Seamounts, Atlántico Norte" (https://sketchfab.com/3d-models/kelvin-seamounts-atlantico-norte-3a1e7233f7cb4dfc9b261f0a656047a3) by CMPLab (https://sketchfab.com/secad) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
