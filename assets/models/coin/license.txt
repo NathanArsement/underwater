@@ -1,0 +1,11 @@
+Model Information:
+* title:	Gold_dragon_coin_001_RAG
+* source:	https://sketchfab.com/3d-models/gold-dragon-coin-001-rag-6467afed3bce4317b326159e8eecbb87
+* author:	RadioactiveAG (https://sketchfab.com/RadioactiveAG)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Gold_dragon_coin_001_RAG" (https://sketchfab.com/3d-models/gold-dragon-coin-001-rag-6467afed3bce4317b326159e8eecbb87) by RadioactiveAG (https://sketchfab.com/RadioactiveAG) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

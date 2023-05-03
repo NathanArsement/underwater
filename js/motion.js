@@ -36,7 +36,7 @@ AFRAME.registerComponent('terrain-rotation', {
 AFRAME.registerComponent("foo", {
     init: function () {
         // grab the camera
-       
+        this.el.setAttribute("dynamic-body", { shape: "sphere", sphereRadius: 20, mass: 0 })
 
         window.addEventListener("keydown", (e) => {
             if (e.code === "ArrowUp") {

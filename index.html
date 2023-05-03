@@ -14,32 +14,28 @@
     </head>
 
 <body>
-    <a-scene physics="debug:false; friction: 0.01; restitution: 0.3" background="color:#172f60"> 
+    <a-scene background="color:#172f60" physics="debug:false"> 
         <a-assets>
             <a-asset-item id="base-model" src="./assets/models/base/scene.gltf" ></a-asset-item>
             <a-asset-item id="ocean" src="./assets/models/sea_wave-_deniz_dalgas/scene.gltf"></a-asset-item>
             <a-asset-item id="diver" src="./assets/models/diver/scene.gltf"></a-asset-item>
             <img id="bg" src="./assets/images/bg.jpg">
-            <img id="sky" src="./assets/images/sky.jpg">
         </a-assets>
         
-        <a-entity id="base" position="0 0 0" gltf-model="#base-model" scale="0.1 0.1 0.1" fish>
+        <a-entity id="base" position="0 0 0" gltf-model="#base-model" scale="0.1 0.1 0.1" fish coin>
                     <a-plane src="#bg" position="0 9000 -72500" height="50000" width="150000" rotation="0 0 0"></a-plane>
                     <a-plane src="#bg" position="-72500 9000 0" height="50000" width="150000" rotation="0 90 0"></a-plane>
                     <a-plane src="#bg" position="0 9000 72500" height="50000" width="150000" rotation="0 180 0"></a-plane>
                     <a-plane src="#bg" position="72500 9000 0" height="50000" width="150000" rotation="0 -90 0"></a-plane>
-                    <a-entity gltf-model="#ocean" position="0 25000 0" scale="8000 5000 5000" rotation="0 0 -2" ocean-wave-tras ></a-entity>
+                    <a-entity gltf-model="#ocean" position="0 25000 0" scale="8000 5000 5000" rotation="0 0 -2"></a-entity>
                    </a-entity>
         </a-entity>
         
 
 
-        <a-entity gltf-model="#diver" position="0 5 0" scale="0.5 0.5 0.5" rotation="0 0 0" animation-mixer dynamic-body foo>
+        <a-entity gltf-model="#diver" position="0 5 0" scale="0.5 0.5 0.5" rotation="0 0 0" animation-mixer foo>
             <a-entity id="camera" camera position="0 20 -100" rotation="0 180 0" look-controls="enabled:false" wasd-controls="enabled:false"></a-entity>
         </a-entity>
-
-
-        <a-sky src="#sky" radius="150000"></a-sky>
 
     </a-scene>
 
