@@ -33,8 +33,46 @@
         
 
 
-        <a-entity gltf-model="#diver" position="0 5 0" scale="0.5 0.5 0.5" rotation="0 0 0" animation-mixer foo>
-            <a-entity id="camera" camera position="0 20 -100" rotation="0 180 0" look-controls="enabled:false" wasd-controls="enabled:false"></a-entity>
+        <a-entity id="diver_model" gltf-model="#diver" position="0 5 0" scale="0.5 0.5 0.5" rotation="0 0 0" animation-mixer foo>
+            <a-entity id="camera" camera position="0 20 -100" rotation="0 180 0" look-controls="enabled:false" wasd-controls="enabled:false">
+                <a-entity id="header" position="0 8 -10">
+                    <!-- Title -->
+                    <a-entity position="-10.75 0 0" rotation="0 0 0"
+                        text="font: exo2bold; align: center; width: 30; color: white; value: VIRTUAL FLIGHT"></a-entity>
+                
+                    <!-- Timer -->
+                    <a-entity position="-12 -1.25 0">
+                        <a-entity position="-6.25 -0.15 0" rotation="0 0 0"
+                            text="font: aileronsemibold; width: 10; color: white;align:right; value: TIME\nREMAINING"></a-entity>
+                        <a-entity id="timer" position="0 -0.05 0" rotation="0 0 0"
+                            text="font: exo2bold; align: center; width: 20; color: white; value: 00:00"></a-entity>
+                    </a-entity>
+                    <a-entity position="-7 -1.25 0" rotation="0 0 0">
+                        <a-entity position="-5.25 -0.15 0" text="
+                                                font:aileronsemibold; 
+                                                width: 10; 
+                                                align:right;
+                                                color: white;
+                                                 value: TARGETS\nREMAINING"></a-entity>
+                        <a-entity id="targets" position="0.5 -0.05 0" text="
+                                                font: exo2bold; 
+                                                align: center; 
+                                                width: 20; 
+                                                color: white; 
+                                                value: 20"></a-entity>
+                
+                    </a-entity>
+                </a-entity>
+                <!-- Score -->
+                <a-entity position="13.75 8 -10" rotation="0 0 0">
+                    <a-entity position="0 0 0" text="font: exo2bold; align: center; width: 30; color: white; value: SCORE"></a-entity>
+                    <a-entity id="scoreDisplay" position="1 -1.5 0"
+                        text="font: exo2bold; align: center; width: 30; color: white; value: 0"></a-entity>
+                </a-entity>
+                
+                <a-entity id="game_over_text" position="0 1.5 -10" rotation="0 0 0"
+                    text="font: exo2bold; align: center; width: 100; color: white; value: GAME OVER!!!" visible="false"></a-entity>
+            </a-entity>
         </a-entity>
 
     </a-scene>
